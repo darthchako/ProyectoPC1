@@ -11,6 +11,7 @@ i = 0
 
 filepathtxt = Path('D:/UNI/CURRENT/PROYECTO COMPUTACION 1/ProyectoPC1/TXT/url_list.txt') 
 
+
 with open(filepathtxt) as urllist_file:
     for line in urllist_file:
         #print(line) # The comma to suppress the extra new line char
@@ -26,7 +27,7 @@ with open(filepathtxt) as urllist_file:
 
         pathmp3 = 'D:/UNI/CURRENT/PROYECTO COMPUTACION 1/ProyectoPC1/MP3/'+cleanfilename+'.mp3'
         pathmp4 = 'D:/UNI/CURRENT/PROYECTO COMPUTACION 1/ProyectoPC1/MP4/'+cleanfilename+'.mp4'
-        pathtxt = 'D:/UNI/CURRENT/PROYECTO COMPUTACION 1/ProyectoPC1/TRANSCRIPT/'+cleanfilename+'.txt'
+        pathtxt = 'D:/UNI/CURRENT/PROYECTO COMPUTACION 1/ProyectoPC1/TRANSCRIPT/RAW/'+cleanfilename+'.txt'
         filepathmp3 = Path(pathmp3) 
         filepathmp4 = Path(pathmp4) 
 
